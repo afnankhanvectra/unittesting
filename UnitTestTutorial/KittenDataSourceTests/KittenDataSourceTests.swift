@@ -52,8 +52,7 @@ class KittenDataSourceTests: XCTestCase {
     
     func test003_CellForRow() {
         
-        
-        let cell = dataSource.tableView(tableView, cellForRowAt: IndexPath(row: 0, section: 0))
+         let cell = dataSource.tableView(tableView, cellForRowAt: IndexPath(row: 0, section: 0))
         
         XCTAssertEqual(cell.textLabel?.text, "Kitten: 0",
                        "The first cell should display name of first kitten")

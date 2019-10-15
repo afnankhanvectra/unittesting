@@ -28,9 +28,7 @@ class UnitTestAsyncTests: XCTestCase {
     
 
     
-    // Asynchronous test: success fast, failure slow
-    func testValidCallToiTunesGetsHTTPStatusCode200() {
-        // Asynchronous test: success fast, failure slow
+          // Asynchronous test: success fast, failure slow
         func testValidCallToiTunesGetsHTTPStatusCode200() {
             // given
             let url =
